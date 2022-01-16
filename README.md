@@ -12,6 +12,8 @@ Not: Yeni Eklediğim LeaderBoard Güncelleme için bot ownerı 2 adet . attıkta
 
 Thearkxd ve Jaylen'e codeları için tesekkürler...
 
+# Destek Almak İcin Asağdaki Bilgilerden Ulasabilirsiniz Bana
+
 ![image](https://cdn.discordapp.com/attachments/932377086205788290/932377096884461618/unknown.png)
 ![image](https://cdn.discordapp.com/attachments/932377086205788290/932377204032159775/unknown.png)
 ![image](https://cdn.discordapp.com/attachments/932377086205788290/932377418696638615/unknown.png)
