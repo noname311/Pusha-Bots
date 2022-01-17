@@ -10,7 +10,6 @@
 Bu botta emeği ve codeları bulunan Jaylen teşekürlerimi iletiyorum.
 
 Not: Yeni Eklediğim LeaderBoard Güncelleme için bot ownerı 2 adet . attıktan sonra botun mesaj idlerini kopyalayıp ayarlardaki LeaderBoard Mesaj id kısımlarına girebilirler.
-Bu botta emeği ve codeları bulunan Aris Lesnar' a teşekürlerimi iletiyorum.
 
 Thearkxd ve Jaylen'e codeları için tesekkürler...
 
