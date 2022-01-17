@@ -1,8 +1,8 @@
 {
-  "token": "ODk0ODY3MDQ5NDM0NzM4Njg5.YVwP4g.dv2s0rfO_jwY8yyXtKdOAgn7bHQ",
+  "token": "",
   "prefix": ["."],
   "guildID": "923331950779990087",
-  "mongoUrl": "mongodb+srv://receparda:bjk1903arda@backupbotu.d730h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongoUrl": "",
   "owners": ["904104903532740648"],
   "botSes": "923331953502085143",
   "botDurum": "M A R İ N O 🖤 Pusha",
