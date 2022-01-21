@@ -21,7 +21,7 @@ Not: Aşağıdaki Gördünüz Yaş Ayaridir Eyerki 14 Yaş Altisa Kayit Edilmez 
 
 ![image](https://cdn.discordapp.com/attachments/932215403646681101/934076446790529065/unknown.png)
 
-Aşağada Gördünüz Kod .e ve .k Kodudur Taglı Alim orda Gördiniz İki Rol İdsine Booster Ve Vip İdsi Girilcektir
+Not: Aşağada Gördünüz Kod .e ve .k Kodudur Taglı Alim orda Gördiniz İki Rol İdsine Booster Ve Vip İdsi Girilcektir
 
 ```js 
 const tagModedata = await regstats.findOne({ guildID: message.guild.id })
