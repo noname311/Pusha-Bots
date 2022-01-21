@@ -19,7 +19,7 @@ Not: Aşağıdaki hata için veya welcome mesaj sorunu için .ytag ekle sil yapm
 
 Not: Aşağıdaki Gördünüz Yaş Ayaridir Eyerki 14 Yaş Altisa Kayit Edilmez 14 Ve Üştuse Kayit Eder Dilediginiz Gibide Ayarlaya Bilirsiniz
 
-![image](https://cdn.discordapp.com/attachments/932215403646681101/934075328735875082/unknown.png)
+![image](https://cdn.discordapp.com/attachments/932215403646681101/934076446790529065/unknown.png)
 
 Aşağada Gördünüz Kod .e ve .k Kodudur Taglı Alim orda Gördiniz İki Rol İdsine Booster Ve Vip İdsi Girilcektir
 
