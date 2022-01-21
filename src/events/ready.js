@@ -57,6 +57,41 @@ setTimeout(() => {
 }, 1000 * 60 * 60);
 })
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+setInterval(() => { TagAlıncaKontrol(); }, 15 * 1000);
+setInterval(() => { TagBırakanKontrol(); }, 10 * 1000);
+setInterval(() => { RolsuzeKayitsizVerme(); }, 3 * 1000);
+
+async function RolsuzeKayitsizVerme()  { // Rolü olmayanı kayıtsıza atma
+
+const guild = client.guilds.cache.get(settings.guildID);
+let ozi = guild.members.cache.filter(m => m.roles.cache.filter(r => r.id !== guild.id).size == 0)
+   ozi.forEach(r => {
+   r.roles.add(conf.unregRoles)
+   })
+ 
+};
+
+async function TagAlıncaKontrol() { // Tag alınca tarama
+const guild = this.client.guilds.cache.get(settings.guildID)
+const members = guild.members.cache.filter(member => member.user.username.includes(conf.tag) && !member.roles.cache.has(conf.jailRole) && !member.roles.cache.has(conf.ekipRolu)).array().splice(0, 10)
+for await (const member of members) {
+ await member.roles.add(conf.ekipRolu);
+}
+};
+
+async function TagBırakanKontrol() { // Tagı olmayanın family rol çekme
+const guild = this.client.guilds.cache.get(settings.guildID)
+const members = guild.members.cache.filter(member => !member.user.username.includes(conf.tag) && !member.user.bot && member.roles.cache.has(conf.ekipRolu)).array().splice(0, 10)
+for await (const member of members) {
+ await member.roles.remove(conf.ekipRolu)
+}
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 setInterval(async () => {  
   const guild = client.guilds.cache.get(settings.guildID);
   if (!guild) return;
