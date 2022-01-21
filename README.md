@@ -13,7 +13,22 @@ Not: Yeni Eklediğim LeaderBoard Güncelleme için bot ownerı 2 adet . attıkta
 
 Thearkxd ve Jaylen'e codeları için tesekkürler...
 
-# Destek Almak İcin Asağdaki Bilgilerden Ulasabilirsiniz Bana
+Not: Aşağıdaki hata için veya welcome mesaj sorunu için .ytag ekle sil yapmanız gerekmektedir.
+
+![image](https://user-images.githubusercontent.com/92666466/150496311-fa4725af-1d36-4004-b457-bcacfaee238b.png)
+
+Not: Aşağıdaki Gördünüz Yaş Ayaridir Eyerki 14 Yaş Altisa Kayit Edilmez 14 Ve Üştuse Kayit Eder Dilediginiz Gibide Ayarlaya Bilirsiniz
+
+![image](https://cdn.discordapp.com/attachments/932215403646681101/934075328735875082/unknown.png)
+
+Aşağada Gördünüz Kod .e ve .k Kodudur Taglı Alim orda Gördiniz İki Rol İdsine Booster Ve Vip İdsi Girilcektir
+
+```js 
+const tagModedata = await regstats.findOne({ guildID: message.guild.id })
+    if (tagModedata && tagModedata.tagMode === true) {
+    if(!uye.user.username.includes(ayar.tag) && !uye.roles.cache.has("923331950905794568") && !uye.roles.cache.has("923536502875623455")) return message.lineReply(embed.setDescription(`${uye.toString()} isimli üyenin kullanıcı adında tagımız (\`${ayar.tag}\`) olmadığı, <@&${ayar.boosterRolu}>, <@&${ayar.vipRole}> Rolü olmadığı için isim değiştirmekden başka kayıt işlemi yapamazsınız.`));
+    }
+```
 
 ![image](https://cdn.discordapp.com/attachments/932377086205788290/932377096884461618/unknown.png)
 ![image](https://cdn.discordapp.com/attachments/932377086205788290/932377204032159775/unknown.png)
